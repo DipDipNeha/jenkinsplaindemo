@@ -12,7 +12,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 class SpringBootJenkinsPlainApplicationTests {
 
 	@Test
-	 contextLoads() {
+	void contextLoads() {
 		System.err.println("Hello Tested");
 		
 		System.err.println("Hello Tested new Build Generated");
