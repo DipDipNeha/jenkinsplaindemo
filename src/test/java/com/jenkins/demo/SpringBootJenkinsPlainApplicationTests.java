@@ -14,6 +14,8 @@ class SpringBootJenkinsPlainApplicationTests {
 	@Test
 	void contextLoads() {
 		System.err.println("Hello Tested");
+		
+		System.err.println("Hello Tested new Build Generated");
 		assertEquals(true, true);
 		
 	}
